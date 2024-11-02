@@ -1,5 +1,6 @@
-import type { Question } from "~/types";
+import { getQuestions } from '~/server/utils/data'
+import type { Question } from '~/types'
 
 export default defineEventHandler(async (_event): Promise<Question[]> => {
-    return (await useStorage().getItem<Question[]>('questions')) ?? []
-});
+  return getQuestions()
+})
