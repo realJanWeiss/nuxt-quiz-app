@@ -1,6 +1,10 @@
 {
   "name": "nuxt-quiz-app",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realJanWeiss/nuxt-quiz-app.git"
+  },
   "type": "module",
   "scripts": {
     "build": "nuxt build",
