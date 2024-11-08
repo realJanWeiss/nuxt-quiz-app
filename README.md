@@ -1,4 +1,8 @@
-# Nuxt Minimal Starter
+# Nuxt Quiz App
+
+Small application to learn the basics of Nuxt. A UI to perform CRUD operations with a dummy backend api which holds the data in storage.
+
+Also including the component library Nuxt/UI and eslint.
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
