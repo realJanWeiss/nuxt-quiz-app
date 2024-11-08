@@ -1,15 +1,13 @@
 <template>
-  <div>
-    <NuxtLayout
-      title="New Question"
-      :breadcrumbs="breadcrumbs"
-    >
-      <QuestionForm
-        submit-text="Create"
-        @submit="onSubmit"
-      />
-    </NuxtLayout>
-  </div>
+  <NuxtLayout
+    title="New Question"
+    :breadcrumbs="breadcrumbs"
+  >
+    <QuestionForm
+      submit-text="Create"
+      @submit="onSubmit"
+    />
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
